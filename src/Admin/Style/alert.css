@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6; 
+}
+.container-a{
+    max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+.alert-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 15px 0 0;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+   margin-left: 0px;
+}
+.h-expiry:hover {
+    color: #059669;
+    text-decoration: underline solid #059669;
+      text-underline-offset: 10px;
+      cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.medicane_expiry{
+    background-color: white;
+      border-radius: 0px 15px 15px 15px;
+    padding: 20px;
+}
+.Expiring-Items {
+  display: block;  
+}
+
+.Reorder-Suggestion {
+  display: none;   
+}

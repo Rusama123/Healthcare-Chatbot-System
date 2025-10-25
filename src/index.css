@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #1C1B54;
+  --color-secondary: #37C3E7;
+  --color-green: #4AB950;
+  --color-black: #000000;
+  --color-btn:#059669;
+  --font-heading:'Montserrat';
+  --font-size-h: 40px;
+  --font-waight-bold: 700;
+  --font-waight-light: 400;
+  --font-size-p: 20px;
+  --color-border:#989898;
+  --color-white:#ffffff;
+  --color-header-bg: #1E3A8A;
+  --color-header-btn:#EC221F;
+}
+.ontainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;          
+  display: flex;
+  justify-content: center;     
+  align-items: center;                
+  overflow: hidden;            
+}

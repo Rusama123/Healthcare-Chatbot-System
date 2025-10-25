@@ -1,0 +1,98 @@
+:root{
+    --color-white:#ffffff;
+}
+.container-header{
+ max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;          
+  display: flex;   
+  overflow: hidden;      
+}
+.header{
+    width: 100%;
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+.header-right   {
+    width: 40%;
+   justify-content: end;
+    display: flex;
+    gap: 20px;
+    padding-right: 15px;
+}
+.header-left{
+    width: 60%;
+    display: flex;
+    
+}
+.header-img img{
+    width: 200px;
+   padding-bottom: 6px;
+   padding-top: 6px;
+   background-color: white;
+}
+.header-img{
+    background-color: var(--color-bg);
+    border: 1px solid black;
+}
+.header-nav{
+    list-style-type: none;
+   padding-left: 35px !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  
+}
+.header-nav li{
+    margin-right: 30px;
+}
+.header-nav li a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-heading);
+    font-size: var(--font-size-p);
+    font-weight: var(--font-waight-light);
+}
+.bg-header{
+    background-color: var(--color-header-bg);
+    height: 100px;
+    width: 100%;
+     width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.header-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: var(--color-header-btn);
+    color: var(--color-white);
+}
+.username{
+    color: var(--color-white);
+}
+.menu-btn{
+    justify-content: center;
+    display: flex;
+}
+.menus{
+    width: 30px;
+    display: none;
+}
+.header-r{
+    display: block;
+    display: flex;
+}
+.h-btn{
+    align-self: center;
+}
+.header-nav a:hover{
+    text-decoration: block solid #059669;
+    text-underline-offset: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
